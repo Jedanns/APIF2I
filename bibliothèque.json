@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "title": "The Lost World",
+    "author": "Arthur Conan Doyle",
+    "description": "A thrilling adventure to a prehistoric plateau.",
+    "genre": "Adventure",
+    "type": "Novel",
+    "publication_date": "1912-01-01"
+  },
+  {
+    "id": 2,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "description": "A tale of love and societal expectations in 19th century England.",
+    "genre": "Romance",
+    "type": "Novel",
+    "publication_date": "1813-01-28"
+  },
+  {
+    "id": 3,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "description": "A story of wealth, love, and the American Dream in the 1920s.",
+    "genre": "Drama",
+    "type": "Novel",
+    "publication_date": "1925-04-10"
+  },
+  {
+    "id": 4,
+    "title": "1984",
+    "author": "George Orwell",
+    "description": "A dystopian novel exploring the dangers of totalitarianism.",
+    "genre": "Science Fiction",
+    "type": "Novel",
+    "publication_date": "1949-06-08"
+  },
+  {
+    "id": 5,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "description": "A poignant exploration of racial injustice in the Deep South.",
+    "genre": "Drama",
+    "type": "Novel",
+    "publication_date": "1960-07-11"
+  },
+  {
+    "id": 6,
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "description": "A teenager's journey through the complexities of adulthood.",
+    "genre": "Drama",
+    "type": "Novel",
+    "publication_date": "1951-07-16"
+  },
+  {
+    "id": 7,
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "description": "A dystopian novel about a scientifically controlled society.",
+    "genre": "Science Fiction",
+    "type": "Novel",
+    "publication_date": "1932-01-01"
+  },
+  {
+    "id": 8,
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "description": "The epic tale of a man's obsession with a white whale.",
+    "genre": "Adventure",
+    "type": "Novel",
+    "publication_date": "1851-10-18"
+  },
+  {
+    "id": 9,
+    "title": "The Odyssey",
+    "author": "Homer",
+    "description": "The ancient Greek epic of Odysseus's journey home.",
+    "genre": "Epic",
+    "type": "Poetry",
+    "publication_date": "-800-01-01"
+  },
+  {
+    "id": 10,
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "description": "A sweeping narrative of Russian society during the Napoleonic wars.",
+    "genre": "Historical Fiction",
+    "type": "Novel",
+    "publication_date": "1869-01-01"
+  },
+  {
+    "id": 11,
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "description": "A hobbit's unexpected journey to reclaim a lost treasure.",
+    "genre": "Fantasy",
+    "type": "Novel",
+    "publication_date": "1937-09-21"
+  },
+  {
+    "id": 12,
+    "title": "The Fellowship of the Ring",
+    "author": "J.R.R. Tolkien",
+    "description": "The first part of an epic quest to destroy the One Ring.",
+    "genre": "Fantasy",
+    "type": "Novel",
+    "publication_date": "1954-07-29"
+  },
+  {
+    "id": 13,
+    "title": "The Two Towers",
+    "author": "J.R.R. Tolkien",
+    "description": "The continuation of the journey to destroy the One Ring.",
+    "genre": "Fantasy",
+    "type": "Novel",
+    "publication_date": "1954-11-11"
+  },
+  {
+    "id": 14,
+    "title": "The Return of the King",
+    "author": "J.R.R. Tolkien",
+    "description": "The climactic conclusion to the quest to destroy the One Ring.",
+    "genre": "Fantasy",
+    "type": "Novel",
+    "publication_date": "1955-10-20"
+  },
+  {
+    "id": 15,
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "description": "A young woman's struggle for independence and love.",
+    "genre": "Romance",
+    "type": "Novel",
+    "publication_date": "1847-10-16"
+  },
+  {
+    "id": 16,
+    "title": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "description": "A tragic tale of love and revenge on the Yorkshire moors.",
+    "genre": "Drama",
+    "type": "Novel",
+    "publication_date": "1847-12-01"
+  },
+  {
+    "id": 17,
+    "title": "Great Expectations",
+    "author": "Charles Dickens",
+    "description": "A young orphan's journey to find his place in the world.",
+    "genre": "Drama",
+    "type": "Novel",
+    "publication_date": "1861-01-01"
+  },
+  {
+    "id": 18,
+    "title": "David Copperfield",
+    "author": "Charles Dickens",
+    "description": "A semi-autobiographical tale of growth and self-discovery.",
+    "genre": "Drama",
+    "type": "Novel",
+    "publication_date": "1850-01-01"
+  },
+  {
+    "id": 19,
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "description": "A man trades his soul for eternal youth and beauty.",
+    "genre": "Gothic",
+    "type": "Novel",
+    "publication_date": "1890-06-20"
+  },
+  {
+    "id": 20,
+    "title": "Dracula",
+    "author": "Bram Stoker",
+    "description": "The iconic tale of Count Dracula's attempt to move to England.",
+    "genre": "Horror",
+    "type": "Novel",
+    "publication_date": "1897-05-26"
+  },
+  {
+    "id": 21,
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "description": "A scientist's ambitious experiment leads to unintended consequences.",
+    "genre": "Horror",
+    "type": "Novel",
+    "publication_date": "1818-01-01"
+  },
+  {
+    "id": 22,
+    "title": "The Call of the Wild",
+    "author": "Jack London",
+    "description": "A dog's journey from domestication to wilderness survival.",
+    "genre": "Adventure",
+    "type": "Novel",
+    "publication_date": "1903-01-01"
+  },
+  {
+    "id": 23,
+    "title": "The Road",
+    "author": "Cormac McCarthy",
+    "description": "A father and son's struggle for survival in a post-apocalyptic world.",
+    "genre": "Science Fiction",
+    "type": "Novel",
+    "publication_date": "2006-09-26"
+  },
+  {
+    "id": 24,
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "description": "A tale of politics, religion, and power on the desert planet of Arrakis.",
+    "genre": "Science Fiction",
+    "type": "Novel",
+    "publication_date": "1965-08-01"
+  },
+  {
+    "id": 25,
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "description": "A dystopian future where books are banned and 'firemen' burn them.",
+    "genre": "Science Fiction",
+    "type": "Novel",
+    "publication_date": "1953-10-19"
+  },
+  {
+    "id": 26,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "description": "A young shepherd's journey to discover his personal legend.",
+    "genre": "Adventure",
+    "type": "Novel",
+    "publication_date": "1988-01-01"
+  },
+  {
+    "id": 27,
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "description": "A psychological exploration of guilt and redemption.",
+    "genre": "Drama",
+    "type": "Novel",
+    "publication_date": "1866-01-01"
+  },
+  {
+    "id": 28,
+    "title": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "description": "A tragic tale of love and infidelity in Russian aristocracy.",
+    "genre": "Romance",
+    "type": "Novel",
+    "publication_date": "1877-01-01"
+  },
+  {
+    "id": 29,
+    "title": "Les Misérables",
+    "author": "Victor Hugo",
+    "description": "A powerful narrative of love, justice, and redemption.",
+    "genre": "Drama",
+    "type": "Novel",
+    "publication_date": "1862-01-01"
+  },
+  {
+    "id": 30,
+    "title": "The Old Man and the Sea",
+    "author": "Ernest Hemingway",
+    "description": "An old fisherman's struggle with a giant marlin.",
+    "genre": "Adventure",
+    "type": "Novel",
+    "publication_date": "1952-09-01"
+  }
+]
