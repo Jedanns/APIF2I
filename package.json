@@ -1,0 +1,25 @@
+{
+  "name": "apif2i",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "API For School Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jedanns/APIF2I.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jedanns/APIF2I/issues"
+  },
+  "homepage": "https://github.com/Jedanns/APIF2I#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "express": "^4.21.2"
+  }
+}
