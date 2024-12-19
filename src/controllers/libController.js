@@ -1,4 +1,5 @@
 import { getData, saveData } from '../models/libmodel.js';
+import {countOccurrenceOfItems, getUniqueValues, getAuthorWithMostBooks} from "../services/libService.js";
 
 export const getAllBooks = (req, res) => {
     try {
@@ -71,3 +72,41 @@ export const filterBooksByParam = (req, res) => {
         res.status(500).json({ status: 500, message: "Error filtering data" });
     }
 };
+
+export const getStats = (req, res) => {
+    try {
+        const data = getData();
+
+        const authors = getUniqueValues(data, "author");
+        const genres = data.map((item) => item.genre);
+
+        let mostUsedGenre = {
+            name: null,
+            nbrBooks: 0
+        }
+
+        countOccurrenceOfItems(genres).forEach( (item) => {
+
+            if( item.occurrenceNumber >= mostUsedGenre.nbrBooks )
+            {
+                mostUsedGenre = {
+                    name: item.name,
+                    nbrBooks: item.occurrenceNumber
+                }
+            }
+
+        })
+
+        let stats = {
+            numberOfBooks: data.length,
+            numberOfAuthors: authors.length,
+            authorWithMostBooks: getAuthorWithMostBooks(authors),
+            mostUsedGenre,
+
+        };
+
+        res.status(200).json({ status: 200, data: stats, message: "Data resumed successfully" });
+    } catch (error) {
+        res.status(500).json({ status: 500, message: "Error while getting stats" });
+    }
+}
