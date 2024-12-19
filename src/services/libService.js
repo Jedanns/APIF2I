@@ -75,3 +75,6 @@ export const getAuthorWithMostBooks = (authors) => {
 
     return authorWithMostBooks;
 };
+
+// Fonction pour introduire un délai
+export const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
